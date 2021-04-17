@@ -1,0 +1,147 @@
+#titulo{
+	font-family: Industry, monospace;
+	color: #40B0C2;
+    text-align: center;
+	margin-top: 100px;
+    font-size: 65px;
+    text-shadow: #000 1px 2px 3px;
+}
+#curso{
+    font-family: Industry, monospace;
+	color: #40B0C2;
+    text-align: center;
+	margin-top: 40px;
+}
+#foto-perfil{
+    position: relative;
+    top: 80px;
+    left: 45%;
+}
+#social-in{
+    position: absolute;
+    top: 420px;
+    left: 95%;
+}
+#historico-img, #dados-pessoais-img, #experiencia-img{
+    position: relative;
+    top: 210px;
+}
+#experiencia-img{
+    position: relative;
+    top: 250px;
+}
+#habilidades-img{
+    position: relative;
+    top: 185px;
+}
+#idiomas-img{
+    position: relative;
+    top: 100px;
+    right: 20%;
+}
+h1 {
+    font-size: 50px;
+	font-family: Industry, monospace;
+	color: #40B0C2;
+    text-align: left;
+	margin-top: 100px;
+    text-shadow: #000 1px 2px 2px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Industry, monospace;
+	color: #40B0C2;
+    /*text-shadow: #000 0.5px 1px 1px;*/
+}
+
+li {
+    font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+p {
+	font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.4em;
+    text-align: justify;
+}
+
+section {
+	max-width: 1200px;
+	margin: 90px auto;
+}
+
+section::after, section::before {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.grid-text {
+	width: calc(60% - 40px);
+}
+
+.grid-img {
+	max-width:250px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
+section > div {
+	margin: 0 20px;
+	float: left;
+}
+
+section img {
+    position: relative;
+    top: 150px;
+	max-width:250px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
+.img-right {
+	text-align: right;
+}
+
+.anime {
+	opacity: 0;
+	transform: translate3d(-100px,0,0);
+	transition: .3s;
+}
+
+.anime-start {
+	opacity: 1;
+	transform: translate3d(0,0,0);
+}
+
+nav {
+	width: 100%;
+	background: #010101;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav a {
+	padding: 10px 40px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.4em;
+}
+
+nav a:hover {
+	color: #40B0C2;
+}
